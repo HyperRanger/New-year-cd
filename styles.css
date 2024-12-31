@@ -1,51 +1,40 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #000;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
 }
 
 .container {
-    width: 80%;
-    margin: 40px auto;
-    text-align: center;
+  width: 80%;
+  margin: 40px auto;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#countdown-container {
-    margin-top: 20px;
+input[type="text"] {
+  width: 50%;
+  height: 40px;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
 }
 
-.countdown-message {
-    font-size: 48px;
-    font-weight: bold;
-    color: #fff;
+button {
+  width: 20%;
+  height: 40px;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.fireworks-background {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
-    background-size: cover;
-    background-position: center;
-    animation: fireworks 5s infinite;
-}
-
-.algerian-font {
-    font-family: Algerian;
-    font-size: 72px;
-    color: #fff;
-}
-
-.personalized-message {
-    font-size: 24px;
-    color: #fff;
-    margin-top: 20px;
-}
-
-@keyframes fireworks {
-    0% {
-        background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
-    }
-    50% {
-        background-image: linear-gradient(rgba(255, 0, 0, 0.5), rgba(255, 255, 0, 0.5));
-    }
-    100% {
-        background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 255, 0, 0.5));
-    }
+button:hover {
+  background-color: #3e8e41;
 }
