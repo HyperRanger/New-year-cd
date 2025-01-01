@@ -11,11 +11,6 @@ body {
   flex-direction: column; 
 }
 
-.container {
-  text-align: center;
-  margin-top: -50px; /* Adjust this value as needed */ 
-}
-
 #header {
   font-size: 50px;
   margin-bottom: 100px;
