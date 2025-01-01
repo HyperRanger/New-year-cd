@@ -16,15 +16,9 @@ body {
   margin-top: -50px; /* Adjust this value as needed */ 
 }
 
-#greeting {
-  font-size: 33epx;
-  color: #FF69c4;
-  margin-bottom: 50px;
-}
-
 #header {
   font-size: 22px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 #message {
