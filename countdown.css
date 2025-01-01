@@ -1,33 +1,42 @@
 body {
-    font-family: Arial, sans-serif;
-    background-image: url("(https://pixabay.com/illustrations/new-year-sylvester-celebration-9264474/)"); 
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  font-family: Arial, sans-serif;
+
+  /* New background with "2025" text */
+  background-image: 
+    linear-gradient(to right, 
+      gold 0%, 
+      gold 45%, 
+      black 55%, 
+      black 100%
+    );
+
+  background-size: cover; 
+  background-position: center; 
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .container {
-    text-align: center;
+  text-align: center;
 }
 
 #greeting {
-    font-size: 40px;
-    color: #6577B3;
-    margin-bottom: 20px;
+  font-size: 40px;
+  color: #FF69c4;
+  margin-bottom: 20px;
 }
 
 #header {
-    font-size: 30px;
-    margin-bottom: 20px;
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 
 #message {
-    font-size: 18px;
-    color: #666;
-    margin-bottom: 20px;
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
 }
