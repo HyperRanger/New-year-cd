@@ -1,23 +1,28 @@
 body {
-  font-family: Arial, sans-serif;
-  background-image: url("1735693391770.jpg"); 
-  background-size: cover; 
-  background-position: center; 
-  height: 100vh;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-  flex-direction: column; 
+font-family: Arial, sans-serif;
+background-image: url("1735693391770.jpg");
+background-size: cover;
+background-position: center;
+height: 100vh;
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
 }
 
-#header {
-  font-size: 50px;
-  margin-bottom: 100px;
+#greeting {
+font-size: 50px;
+margin-bottom: 30px;
 }
 
-#message {
-  font-size: 18px;
-  color: white; /* Set message color to white */
-  margin-bottom: 20px;
+#countdown-header {
+font-size: 24px;
+margin-bottom: 30px;
 }
+
+#countdown-container {
+font-size: 18px;
+color: white;
+margin-bottom: 20px;
+  }
