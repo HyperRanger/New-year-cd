@@ -1,5 +1,5 @@
 body {
-font-family: Arial, sans-serif;
+font-family: Algerian, sans-serif;
 background-image: url("1735693391770.jpg");
 background-size: cover;
 background-size: cover;
@@ -9,7 +9,6 @@ margin: 0;
 }
 
 #countdown-header {
-font-family: 'Algerian', sans-serif;
 position: absolute;
 top: 0;
 left: 50%;
