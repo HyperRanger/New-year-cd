@@ -1,34 +1,15 @@
-
 body {
-font-family: Arial, sans-serif;
-background-image: url("(https://pixabay.com/illustrations/new-year-sylvester-celebration-9264474/)");
-background-size: cover;
-background-position: center;
-height: 100vh;
-margin: 0;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-}
-
-.container {
-text-align: center;
+  background-image: url("https://pixabay.com/illustrations/new-year-sylvester-celebration-9264474/");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;  /* Retained for font styling */
 }
 
 #greeting {
-font-size: 40px;
-color: #FF69c4;
-margin-bottom: 20px;
-}
-
-#header {
-font-size: 30px;
-margin-bottom: 20px;
-}
-
-#message {
-font-size: 18px;
-color: #666;
-margin-bottom: 20px;
+  font-size: 40px;
+  color: #FF69c4;
+  margin-bottom: 20px;
+  text-align: center;  /* Added for centered text */
 }
