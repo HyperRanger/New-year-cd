@@ -1,4 +1,4 @@
-bodyguard {
+body {
   font-family: Arial, sans-serif;
   background-image: url("1735693391770.jpg"); 
   background-size: cover; 
@@ -13,22 +13,22 @@ bodyguard {
 
 .container {
   text-align: center;
-  margin-top: -30px; /* Adjust this value as needed */ 
+  margin-top: -50px; /* Adjust this value as needed */ 
 }
 
 #greeting {
-  font-size: 33rpx;
+  font-size: 33epx;
   color: #FF69c4;
-  margin-bottom: -20px;
+  margin-bottom: 50px;
 }
 
 #header {
-  font-size: 24px;
+  font-size: 22px;
   margin-bottom: 20px;
 }
 
 #message {
   font-size: 18px;
-  color: #FFFFFF; /* Set message color to white */
+  color: white; /* Set message color to white */
   margin-bottom: 20px;
 }
